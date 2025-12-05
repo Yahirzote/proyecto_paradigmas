@@ -1,5 +1,6 @@
 .vscode
-
+*.*bak*
+*.lck
 
 # ! gitignore from https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 
