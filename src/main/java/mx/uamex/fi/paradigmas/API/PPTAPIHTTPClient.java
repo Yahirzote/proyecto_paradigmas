@@ -1,4 +1,4 @@
-package mx.uamex.fi.paradigmas.api;
+package mx.uamex.fi.paradigmas.API;
 
 import mx.uamex.fi.paradigmas.session.Movimiento;
 import java.util.Date;
@@ -10,8 +10,8 @@ public class PPTAPIHTTPClient implements PPTAPIClient {
         APIRespuesta resp = new APIRespuesta();
         resp.setFecha(new Date());
         resp.setEleccionJugador(movimiento.getSimbolo());
-        resp.setEleccionAPI('P'); 
-        resp.setResultado('G');   // G = Ganar, P = Perder, E = Empate
+        resp.setEleccionAPI('P');
+        resp.setResultado('G'); // G = Ganar, P = Perder, E = Empate
         return resp;
     }
 }
